@@ -1,4 +1,3 @@
-sjtufighter.github.io
-=====================
+# Hawstein's HomePage.
 
-share record grow up
+<http://hawstein.com/>
