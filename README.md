@@ -1,3 +1,3 @@
 # WangMeng's HomePage.
 
-<http://hawstein.com/>
+<http://www.wangmeng.us/>
