@@ -6,21 +6,21 @@ title: Atom Feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>{{ site.title }}</title>
- <link href="http://hawstein.com/atom.xml" rel="self"/>
- <link href="http://hawstein.com/"/>
+ <link href="http://wangmeng.us/atom.xml" rel="self"/>
+ <link href="http://wangmeng.us/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.production_url }}</id>
  <author>
-   <name>Hawstein</name>
-   <email>tomhawstein@gmail.com</email>
+   <name>sjtufighter</name>
+   <email>sjtufighter@163.com</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://hawstein.com{{ post.url }}"/>
+   <link href="http://wangmeng.us{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://hawstein.com{{ post.id }}</id>
+   <id>http://wangmeng.us{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
