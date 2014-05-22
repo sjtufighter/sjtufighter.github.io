@@ -5,12 +5,12 @@ auto: true
 rdiscount:
   extensions: [smart]
 
-title: Hawstein's Blog
+title: WangMeng's Blog
 author:
-  name: Hawstein
-  email: tomhawstein@gmail.com
-  github: Hawstein
+  name: WangMeng
+  email:sjtufighter@163.com
+  github:sjtufighter
 
-production_url: http://hawstein.com
+production_url: http://wangmeng.us
 
 baseurl: /
