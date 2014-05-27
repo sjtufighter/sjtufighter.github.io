@@ -1,16 +1,8 @@
 markdown: rdiscount
+permalink: /:categories/:title/
+url: http://dannyli.net
+author: Danny Li
 pygments: true
-permalink: /posts/:title.html
-auto: true
-rdiscount:
-  extensions: [smart]
+safe: true
+paginate: 16
 
-title: WangMeng's Blog
-author:
-  name: WangMeng
-  email:sjtufighter@163.com
-  github:sjtufighter
-
-production_url: http://wangmeng.us
-
-baseurl: /

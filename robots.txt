@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /assets
-Allow: /posts
-Sitemap: http://wangmeng.us/sitemap.txt
-Sitemap: http://wangmeng.us/atom.xml
