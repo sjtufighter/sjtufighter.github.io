@@ -14,21 +14,20 @@ comments: false
 
 <div id="post">
 
-  <h1>About Me</h1>
+  <h1>related links</h1>
   <p>
     <ul>
-	  <li>Name: Hawstein ( 'Hawking'[:3] + 'Einstein'[3:] )</li>
-	  <li>Email: tomhawstein@gmail.com</li>
-	  <li><a href='http://weibo.com/hawstein'>Weibo</a></li>
-	  <li><a href='http://hawstein.com'>Blog</a></li>
-          <li><a href='https://github.com/hawstein'>GitHub</a></li>
-	  <li><a href='https://twitter.com/Hawstein'>Twitter</a></li>
+	  <li>Name: WangMeng</li>
+	  <li>Email:sjtufighter@163.com</li>
+	  <li><a href='http://weibo.com/u/2019724312?wvr=5&c=spr_sinamkt_buy_baidudz_weibo_t001&sudaref=www.baidu.com'>Weibo</a></li>
+	  <li><a href='http://wangmeng.us'>Blog</a></li>
+          <li><a href='https://github.com/sjtufighter'>GitHub</a></li>
+	  
 	  <li><a href='http://stackoverflow.com/users/2231862/hawstein'>Stackoverflow</a></li>
-	  <li><a href='http://www.quora.com/Tom-Hawstein'>Quora</a></li>
 	  <li><a href='http://www.v2ex.com/member/Hawstein'>V2ex</a></li>
 	  <li><a href='http://www.douban.com/people/53411557/'>Douban</a></li>
 	  <li><a href='http://cnodejs.org/user/Hawstein'>Cnode</a></li>
-	  <li><a href='http://my.oschina.net/u/1023434'>OSChina</a></li>
+	  <li><a href='http://my.oschina.net/sjtufighter'>OSChina</a></li>
     </ul>
   </p>
 
