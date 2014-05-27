@@ -1,3 +1,3 @@
 # WangMeng's HomePage.
 
-<http://www.wangmeng.us/>
+<http://wangmeng.us/>
