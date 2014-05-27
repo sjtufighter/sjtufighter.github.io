@@ -1,16 +1,36 @@
 ---
 title: 关于本人
 layout: page
-comments: yes
+comments: false
 ---
-<link rel="stylesheet" media="all" href="/media/css/han.css">
-<script type="text/javascript" src="/media/js/han.js"></script>
 
-<p><a href="http://weibo.com/dannyli" title="微博" class="n fn full-name url" rel="external"><u class="family-name">李</u><u class="given-name">丹尼</u></a><sup><a id="ref-1" href="#ref-note-1">[1]</a></sup>，名<u class="nickname">旸</u><sup><a id="ref-2" href="#ref-note-2">[2]</a></sup>，<span class="title">天朝外出务农人员</span>，待解放微产阶级。</p>
-<p><time datetime="1984-08-28T09:00">1984年</time>出生于武昌，湖人<sup><a id="ref-3" href="#ref-note-3">[3]</a></sup>。目前下放于<span class="adr">南方偏远<q>坡县</q></span>的一所农场 (<span class="org"><a href="http://www.ntu.edu.sg" rel="external">南大<sup><abbr title="Nanyang Technological University">NTU</abbr></sup></a></span>) 学农。目前被分配在电力大队插队长达三年之久。
-      </p>
-      
-我叫王猛，一个充满激情的程序员，享受程序员那种指点江山改变世界的快乐。对分布式系统，分布式计算包括离线计算，流计算，实时计算以及内存计算都很感兴趣，我相信未来是一个数据消费的大数据时代，而分布式计算正是利用海量数据的基石。
+
+我叫王猛，来着四川，90后。一个充满激情的程序员，享受程序员那种指点江山改变世界的快乐。对分布式系统，分布式计算包括离线计算，流计算，实时计算以及内存计算都很感兴趣，当然也正在从事。我相信未来是一个数据消费的大数据时代，而分布式系统和计算正是处理海量数据的基石。
 
 
 ### **我编程 我快乐 我成长 **
+
+
+
+<div id="post">
+
+  <h1>About Me</h1>
+  <p>
+    <ul>
+	  <li>Name: Hawstein ( 'Hawking'[:3] + 'Einstein'[3:] )</li>
+	  <li>Email: tomhawstein@gmail.com</li>
+	  <li><a href='http://weibo.com/hawstein'>Weibo</a></li>
+	  <li><a href='http://hawstein.com'>Blog</a></li>
+          <li><a href='https://github.com/hawstein'>GitHub</a></li>
+	  <li><a href='https://twitter.com/Hawstein'>Twitter</a></li>
+	  <li><a href='http://stackoverflow.com/users/2231862/hawstein'>Stackoverflow</a></li>
+	  <li><a href='http://www.quora.com/Tom-Hawstein'>Quora</a></li>
+	  <li><a href='http://www.v2ex.com/member/Hawstein'>V2ex</a></li>
+	  <li><a href='http://www.douban.com/people/53411557/'>Douban</a></li>
+	  <li><a href='http://cnodejs.org/user/Hawstein'>Cnode</a></li>
+	  <li><a href='http://my.oschina.net/u/1023434'>OSChina</a></li>
+    </ul>
+  </p>
+
+</div>
+
