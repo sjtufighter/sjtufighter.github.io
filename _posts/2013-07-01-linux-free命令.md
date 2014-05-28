@@ -14,6 +14,10 @@ tags:
    FO[2][1] = 24677460
    FO[3][2] = 10321516  
    
+
+
+
+
    ** 1             2            3             4             5              6  **
    
    **1                 total         used         free           shared        buffers      cached**
