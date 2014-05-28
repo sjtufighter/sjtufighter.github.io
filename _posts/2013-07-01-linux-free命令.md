@@ -17,8 +17,7 @@ tags:
 
 
 
-
-   ** 1             2            3             4             5              6  **
+下面 ** 1             2            3             4             5              6  **
    
    **1                 total         used         free           shared        buffers      cached**
    
