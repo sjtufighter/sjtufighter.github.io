@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "linux之Free"
+date:   2013-07-01 13:17:59
+categories: 
+- Notes 
+tags:
+- Linux
+---
+
 
 　　下面是free的运行结果，一共有4行。为了方便说明，我加上了列号。这样可以把free的输出看成一个二维数组FO(Free Output)。例如：
 
