@@ -142,9 +142,7 @@ grep –nE ‘g(oo|la)’ regular.txt
 例如匹配gle，gogle，google，gooogle等等
 
 grep –nE ‘go*gle’ regular.txt
-
-
-     Linux下面正则表达式博大精深，上文支持总结了最常用的部分，如果熟练掌握的上面部分的正则表达式基本上可以满足日常使用了。另外Linux很多命令支持正则表达式，比如find，sed，awk等等。请在使用的时候参照这些命令的手册使用正则表达式。
+Linux下面正则表达式博大精深，上文支持总结了最常用的部分，如果熟练掌握的上面部分的正则表达式基本上可以满足日常使用了。另外Linux很多命令支持正则表达式，比如find，sed，awk等等。请在使用的时候参照这些命令的手册使用正则表达式。
 
 
 转载自http://www.cnblogs.com/xuxm2007/archive/2011/06/15/2081671.html
