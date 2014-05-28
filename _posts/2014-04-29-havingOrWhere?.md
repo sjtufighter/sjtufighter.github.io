@@ -7,8 +7,7 @@ categories:
 tags:
 - SqlHive
 ---
-
-    在select 语句中可以使用group by 子句将行划分成较小的组，然后，使用聚组函数返回每一个组的汇总信息，另外，可以使用**having子句限制返回的结果集。group by 子句可以将查询结果分组，并返回行的汇总信息Oracle 按照group by 子句中指定的表达式的值分组查询结果。
+在select 语句中可以使用group by 子句将行划分成较小的组，然后，使用聚组函数返回每一个组的汇总信息，另外，可以使用**having子句限制返回的结果集。group by 子句可以将查询结果分组，并返回行的汇总信息Oracle 按照group by 子句中指定的表达式的值分组查询结果。
    在带有group by 子句的查询语句中**，在**select 列表中指定的列要么是group by 子句中指定的列，要么包含聚组函数**
    
    select max(sal),job emp group by job; 
