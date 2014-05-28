@@ -13,9 +13,7 @@ tags:
    select max(sal),job emp group by job; 
    
 
-   查询语句的select 和group by ,having 子句是聚组函数唯一出现的地方，**在where 子句中不能使用聚组函数**。
-   
-    select deptno,sum(sal) from emp where sal>1200 group by deptno having sum(sal)>8500 order by deptno;
+   查询语句的select 和group by ,having 子句是聚组函数唯一出现的地方，**在where 子句中不能使用聚组函数**。 select deptno,sum(sal) from emp where sal>1200 group by deptno having sum(sal)>8500 order by deptno;
     
    当在gropu by 子句中使用having 子句时，查询结果中只返回满足having条件的组。**在一个sql语句中可以有where子句和having子句**。having 与where 子句类似，均用于设置限定条件 **where 子句的作用是在对查询结果进行分组前**，将不符合where条件的行去掉，即在分组之前过滤数据，**条件中不能包含聚组函数**，使用where条件显示特定的行。
   **having 子句的作用是筛选满足条件的组，即在分组之后过滤数据**，条件中经常**包含聚组函数**，使用having 条件显示特定的组，也可以使用多个分组标准进行分组。
