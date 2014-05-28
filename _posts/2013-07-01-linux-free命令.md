@@ -33,15 +33,9 @@ tags:
    在这些物理内存中有23276064KB（即FO[2][2]）被使用了；
    
    还用1401396KB（即FO[2][3]）是可用的；
-   成立的等式如下
-      FO[2][1] = FO[2][2] + FO[2][3]
+   成立的等式如下 FO[2][1] = FO[2][2] + FO[2][3]   FO[2][5]表示被OS buffer住的内存。  FO[2][6]表示被OS             cache的内存。在有些时候buffer和cache这两个词经常混用。
       
-      FO[2][5]表示被OS buffer住的内存。
-      
-      FO[2][6]表示被OS cache的内存。在有些时候buffer和cache这两个词经常混用。
-      
-    
-    个人理解是buffer是用于存放要输出到disk（块设备）的数据的，而cache是存放从disk上读出的数据。这二者是为了提高IO性能的，并由OS管理
+    个人分析是buffer是用于存放要输出到disk（块设备）的数据的，而cache是存放从disk上读出的数据。这二者是为了提高IO性能的，并由OS管理
     
      Linux和其他成熟的操作系统（例如windows），为了提高IO read的性能，总是要多cache一些数据，这也就是为什么FO[2][6]（cached memory）比较大。
 
