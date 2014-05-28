@@ -13,7 +13,9 @@ tags:
 2.对于非内部数据类型的对象而言，光用maloc/free无法满足动态对象的要求。对象在创建的同时要自动执行构造函数，对象在消亡之前要自动执行析构函数。由malloc/free是库函数而不是运算符，不在编译器控制权限之内，不能够把执行构造函数和析构函数的任务强加于malloc/free。
 
 3.因此C++语言需要一个能完成动态内存分配和初始化工作的运算符new，以一个能完成清理与释放内存工作的运算符delete。注意new/delete不是库函数。 
+
 4.C++程序经常要调用C函数，而C程序只能用malloc/free管理动态内存。 
+
 5.new可以认为是malloc加构造函数的执行。new出来的指针是直接带类型信息的。而malloc返回的都是void*指针。
 
 new delete在实现上其实调用了malloc,free函数
@@ -59,14 +61,3 @@ Obj *objects = new Obj[100](1);// 创建100 个动态对象的同时赋初值1
 delete []objects; // 正确的用法 
 delete objects; // 错误的用法 
 后者相当于delete objects[0]，漏掉了另外99 个对象。
-
-***************************************
-1  new自动计算需要分配的空间，而malloc需要手工计算字节数 
-2  new是类型安全的，而malloc不是，比如： 
-int* p = new float[2]; // 编译时指出错误 
-int* p = malloc(2*sizeof(float)); // 编译时无法指出错误 
-new operator 由两步构成，分别是 operator new 和 construct 
-3  operator new对应于malloc，但operator new可以重载，可以自定义内存分配策略，甚至不做内存分配，甚至分配到非内存设备上。而malloc无能为力 
-4  new将调用constructor，而malloc不能；delete将调用destructor，而free不能。 
-5  malloc/free要库文件支持，new/delete则不要。
-
