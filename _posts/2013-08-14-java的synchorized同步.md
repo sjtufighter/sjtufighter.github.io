@@ -18,7 +18,8 @@ tags:
 上述同步块都同步在不同对象上。实际需要那种同步块视具体情况而定。
 
 
-**实例方法同步*8
+**实例方法同步**
+
 下面是一个同步的实例方法：
 public synchronized void add(int value){
          this.count+= value;
@@ -27,6 +28,7 @@ public synchronized void add(int value){
 Java 实例方法同步是同步在拥有该方法的对象上。这样，每个实例其方法同步都同步在不同的对象上，即该方法所属的实例。只有一个线程能够在实例方法同步块中运行。如果有多个实例存在，那么一个线程一次可以在一个实例同步块中执行操作。一个实例一个线程。
 
 **静态方法同步**
+
 静态方法同步和实例方法同步方法一样，也使用synchronized  关键字。Java 静态方法同步如下示例：
 public static synchronized void add(intvalue){
           count += value;
