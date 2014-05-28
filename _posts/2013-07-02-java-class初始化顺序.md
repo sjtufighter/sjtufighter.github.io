@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "java class初始化顺序"
-date:   2013-07-01 13:17:59
+title:  "java中class各个部分的初始化执行顺序"
+date:   2013-07-02 
 categories: 
 - Notes 
 tags:
