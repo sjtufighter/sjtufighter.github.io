@@ -26,9 +26,9 @@ new delete在实现上其实调用了malloc,free函数
 
 ***************************************
 
-相同点：都可用于申请动态内存和释放内存
+**相同点：都可用于申请动态内存和释放内存**
 
-不同点： 
+**不同点：** 
 (1)操作对象有所不同。 
 malloc与free是C++/C 语言的标准库函数，new/delete 是C++的运算符。对于非内部数据类的对象而言，光用maloc/free 无法满足动态对象的要求。对象在创建的同时要自动执行构造函数， 对象消亡之前要自动执行析构函数。由于malloc/free 是库函数而不是运算符，不在编译器控制权限之内，不能够把执行构造函数和析构函数的任务强加malloc/free。
 
@@ -41,13 +41,11 @@ int *p = (int *) malloc(sizeof(int) * length);
 malloc 返回值的类型是void *，所以在调用malloc 时要显式地进行类型转换，将void * 转换成所需要的指针类型。 
 malloc 函数本身并不识别要申请的内存是什么类型，它只关心内存的总字节数。
 
-函数free 的原型如下： 
+**函数free 的原型如下** 
 void free( void * memblock ); 
-为什么free 函数不象malloc 函数那样复杂呢？这是因为指针p 的类型以及它所指的内存的容量事先都是知道的，语句free(p)能正确地释放内存。如果p 是NULL 指针，那么free
+为什么free 函数不象malloc 函数那样复杂呢？这是因为指针p 的类型以及它所指的内存的容量事先都是知道的，语句free(p)能正确地释放内存。如果p 是NULL 指针，那么free对p 无论操作多少次都不会出问题。如果p 不是NULL 指针，那么free 对p连续操作两次就会导致程序运行错误。
 
-对p 无论操作多少次都不会出问题。如果p 不是NULL 指针，那么free 对p连续操作两次就会导致程序运行错误。
-
-new/delete 的使用要点 
+**new/delete 的使用要点**
 运算符new 使用起来要比函数malloc 简单得多，例如： 
 int *p1 = (int *)malloc(sizeof(int) * length); 
 int *p2 = new int[length]; 
