@@ -16,7 +16,8 @@ tags:
    
    
       **  1              2             3             4             5             6   **                                           
-   **1                total         used         free           shared        buffers      cached**
+   ** 1             2            3             4             5              6  **
+   **1                 total         used         free           shared        buffers      cached**
    
    **2 Mem:            24677460     23276064      1401396          0       870540     12084008**
    
