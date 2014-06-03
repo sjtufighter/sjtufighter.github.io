@@ -1,7 +1,7 @@
 markdown: rdiscount
 permalink: /:categories/:title/
 url: http://wangmeng.us
-author: WangMeng
+author: WangMendg
 pygments: false
 safe: false
 paginate: 16
