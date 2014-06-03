@@ -33,7 +33,11 @@ comments: false
 	  <li><a href='http://www.infoq.com/cn/zones/baidu-salon/'>百度技术沙龙</a></li>
 	  <li><a href='http://fengshenwu.com/blog/'>阿里数据平台</a></li>
 	  <li><a href='http://www.cnblogs.com/fxjwind/'>海量数据与系统</a></li>
+	  <li><a href='http://www.ibm.com/developerworks/cn/'>IBM开发者论坛</a></li>
+	   <li><a href='http://www.ccf.org.cn/sites/ccf/'>CCF中国计算机协会</a></li>
+	   <li><a href='http://dragonstar.ict.ac.cn/dragonstar/index.asp'>中国科学院龙星计划</a></li>
     </ul>
+    
     
   </p>
 
