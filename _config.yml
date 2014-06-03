@@ -3,6 +3,6 @@ permalink: /:categories/:title/
 url: http://wangmeng.us
 author: WangMeng
 pygments: false
-safe: false
+safe: true
 paginate: 16
 
