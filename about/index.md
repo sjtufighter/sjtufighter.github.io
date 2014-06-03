@@ -23,6 +23,20 @@ comments: false
 	  <li><a href='http://www.douban.com/people/53411557/'>Douban</a></li>
 	  <li><a href='http://my.oschina.net/sjtufighter'>OSChina</a></li>
     </ul>
+    
+    <h1>related links</h1>
+  <p>
+    <ul>
+	  <li>Name: WangMeng</li>
+	  <li>Email:sjtufighter@163.com</li>
+	  <li><a href='http://weibo.com/u/2019724312?wvr=5&c=spr_sinamkt_buy_baidudz_weibo_t001&sudaref=www.baidu.com'>Weibo</a></li>
+	  <li><a href='http://wangmeng.us'>Blog</a></li>
+          <li><a href='https://github.com/sjtufighter'>GitHub</a></li
+	  <li><a href='http://stackoverflow.com/users/2231862/hawstein'>Stackoverflow</a></li>
+	  <li><a href='http://www.douban.com/people/53411557/'>Douban</a></li>
+	  <li><a href='http://my.oschina.net/sjtufighter'>OSChina</a></li>
+    </ul>
+    
   </p>
 
 </div>
