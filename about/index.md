@@ -10,7 +10,7 @@ comments: false
 
 
 <div id="post">
-<h1>我编程 我快乐 我分享 我成长</h1>
+<h1>一分耕耘  一分收获</h1>
   <h1>related links</h1>
   <p>
     <ul>
