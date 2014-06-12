@@ -13,17 +13,17 @@ hive是facebook于2009年开源的一个建立在hadoop之上的大数据分析�
 自从hive开源至今已经发布到了0.13版本，出现了很大的变化，横向扩展和纵向扩展。主要体现在多个方面：
 
 
-1.我所熟悉的存储结构的变化，从textfile到sequencefile到rcfile再到orcfile&&parquet以及我们实验室自己开发的存储结构fosf。
+**1**.我所熟悉的存储结构的变化，从textfile到sequencefile到rcfile再到orcfile&&parquet以及我们实验室自己开发的存储结构fosf。
     
-2.sql解析器的优化，比如说map side join 以及star join优化等；
+**2**.sql解析器的优化，比如说map side join 以及star join优化等；
     
-3.底层计算引擎的变化，tez计算框架的出现，尚且不稳定 https://cwiki.apache.org/confluence/display/Hive/Hive+on+Tez；
+**3**.底层计算引擎的变化，tez计算框架的出现，尚且不稳定 https://cwiki.apache.org/confluence/display/Hive/Hive+on+Tez；
     
-4.解析方式的变化，从一行一行解析到并行多行的解析，也不稳定 https://cwiki.apache.org/confluence/display/Hive/Vectorized+Query+Execution
+**4**.解析方式的变化，从一行一行解析到并行多行的解析，也不稳定 https://cwiki.apache.org/confluence/display/Hive/Vectorized+Query+Execution
     
-5.acid这种事务机制的low level支持 https://cwiki.apache.org/confluence/display/Hive/Hive+Transactions
+**5**.acid这种事务机制的low level支持 https://cwiki.apache.org/confluence/display/Hive/Hive+Transactions
     
-6.前面所说的暂且认为是性能的纵向提高，那么hcatlog这种方便管理元数据的姑且认为是功能的横向扩展吧
+**6**.前面所说的暂且认为是性能的纵向提高，那么hcatlog这种方便管理元数据的姑且认为是功能的横向扩展吧
     
 **下面我重点说一下存储结构的演化**
     
@@ -54,7 +54,8 @@ textfile和sequencfile都属于按行存储的格式，区别在于后者的存�
  还有一种则是在加载的过程中动态选择最适压缩了,这一点的实现有多重决策。一种是为每一个page在加载的时候同时进行多重压缩，然后采用压缩性能最好的那种，但是这样成本实在是太高。。。综合加载成本而言，个人偏好于参照第一个page为基准选择，就是在加载第一个page的时候统计出这个数据的列的分布情况，并为其采用多种压缩算法来衡量（**其实这里还有一个问题，如果有两种算法的压缩比很相近，那么该如何选择？这里需要设定一个算法选择的决策树了**）。当这个page的压缩算法确定了之后，我们就为该列剩余的数据选择同样的压缩算法了。。**问题又来了，你有想到合适的统计数据分布情况的算法和数据结构了吗？这里可不能用matlab额。。。。**
  
 3.在最后我想谈谈牺牲精度的近似计算问题。。。。。当数据量很大的时候做一个top k这样的算法其实是很耗费时间的，如果用户对数据结果的一点误差可以接受，那么可以考虑牺牲精度的近似计算，核心思想是利用了boolmfilter，相关的paper比较多，可以去看看
-http://wangmeng.us/notes/%E6%B5%B7%E9%87%8F%E6%95%B0%E6%8D%AE%E4%B8%AD%E7%89%BA%E7%89%B2%E7%B2%BE%E5%BA%A6%E7%9A%84%E8%BF%91%E4%BC%BC%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/
+http://wangmeng.us/notes/%E6%B5%B7%E9%87%8F%E6%95%B0%E6%8D%AE%E4%B
+8%AD%E7%89%BA%E7%89%B2%E7%B2%BE%E5%BA%A6%E7%9A%84%E8%BF%91%E4%BC%BC%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/
 
 
 **其实可以看出hive存储结构的演化还是很清楚的，期待以后更加高效的设计结构**
