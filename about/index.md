@@ -10,7 +10,7 @@ comments: false
 
 
 <div id="post">
-<h1>一分耕耘  一分收获</h1>
+<h1>扎实的基本功是一切"高大上"技术的基石！</h1>
   <h1>related links</h1>
   <p>
     <ul>
