@@ -18,17 +18,18 @@ tags:
 在这里简要说一下ZigZag VLQ int，这种编码风格源自于google protobuffer, zigzag主要是应对针对负数的编码，该编码会将有符号整型映
 射为无符号整型，以便绝对值较小的负数仍然可以有较小的varint编码值，如-1.下面是ZigZag对照表：
 
-Signed Original   Encoded As
+Signed Original --------- Encoded As
 
--1                 	1
+-1       ---------          	1
 
-1                 	2
+1        ---------       	2
 
--2	                  3
+-2	     --------- 3
 
-2147483647	      4294967294
+2147483647	---------4294967294
 
--2147483648	      4294967295
+-2147483648	---------4294967295
+
 其公式为：
 
 n << 1) ^ (n >> 31)    //sint32
@@ -46,3 +47,7 @@ n << 1) ^ (n >> 31)    //sint32
 缺点：如果相邻数值的增量差波动很大，那么编码效果有限
 
 适合场景：相邻value增量差较小
+
+**参考文献**
+1.	http://lemire.me/blog/archives/2012/09/12/fast-integer-compression-decoding-billions-of-integers-per-second/
+2.	http://lemire.me/blog/archives/2012/10/23/when-is-a-bitmap-faster-than-an-integer-list/
