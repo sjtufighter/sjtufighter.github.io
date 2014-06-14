@@ -3,6 +3,7 @@ title: 关于本人
 layout: page
 comments: false
 ---
+<div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://wangmeng.us/', 'user' : 1145870, 'server' : '3', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2014-06-11', 'lang' : 'zh', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www3.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www3.clustrmaps.com/user/a1d117c0e"><img src="http://www3.clustrmaps.com/stats/maps-no_clusters/wangmeng.us--thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
 
 来自四川省广元市，90后，成长可谓是过山车。我当前的生活经历大概分为3个部分，以08年汶川地震和12年为界。高考之年的2008年遭遇到了汶川地震，对的，重灾区，高考延期了一个月，生活于艰辛和担心之中。祸不单行，由于生活环境恶劣起来，住帐篷，睡露天，那时候不太注重身体的我的机能也到了极限，扁桃体炎症爆发了，恰巧的是偶遇到了一个给我打吊针居然不做皮试的医生，恰巧我就严重过敏了，恰巧我就稀里糊涂的在学校的板房了里参加了高考，当时脸肿的像个猪似的，不巧的考试成绩不是太差，高出一类本科线整40，不过实在是太不负责任了，志愿选择很差.受此前各种偶遇事情的影响，本科生活实在是太过平庸，懊悔不已。2012年受到多种因素的刺激，仿佛回到了高中时候的我，重新拾起起乐观积极快乐与自信，追求自己的梦想，在互联网领域做自己想做和能做的事情。
 
