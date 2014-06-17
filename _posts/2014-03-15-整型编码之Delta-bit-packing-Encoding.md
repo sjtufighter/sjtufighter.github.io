@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "整型编码之Delta-bit-packing-Encoding"
+title:  "高效整型编码压缩之Delta-bit-packing-Encoding"
 date:   2014-03-15
 categories: 
 - Notes 
