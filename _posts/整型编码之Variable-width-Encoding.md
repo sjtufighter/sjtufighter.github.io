@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "整型编码之Variable-width-Encoding"
+title:  "高效整型编码压缩之Variable-width-Encoding"
 date:   2014-03-16
 categories: 
 - Notes 
