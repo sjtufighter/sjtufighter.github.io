@@ -20,7 +20,6 @@ comments: false
 	  <li><a href='http://wangmeng.us'>Blog</a></li>
           <li><a href='https://github.com/sjtufighter'>GitHub</a></li>
 	  <li><a href='http://stackoverflow.com/users/2231862/hawstein'>Stackoverflow</a></li>
-	  <li><a href='http://www.douban.com/people/53411557/'>Douban</a></li>
 	  <li><a href='http://my.oschina.net/sjtufighter'>OSChina</a></li>
     </ul>
     
