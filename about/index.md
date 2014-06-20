@@ -19,6 +19,7 @@ comments: false
 	  <li><a href='http://weibo.com/u/2019724312?wvr=5&c=spr_sinamkt_buy_baidudz_weibo_t001&sudaref=www.baidu.com'>Weibo</a></li>
 	  <li><a href='http://wangmeng.us'>Blog</a></li>
           <li><a href='https://github.com/sjtufighter'>GitHub</a></li>
+           <li><a href='http://www.slideshare.net/sjtufighter'>SlidesShare</a></li>
 	  <li><a href='http://stackoverflow.com/users/2231862/hawstein'>Stackoverflow</a></li>
 	  <li><a href='http://my.oschina.net/sjtufighter'>OSChina</a></li>
     </ul>
@@ -26,9 +27,11 @@ comments: false
     <h1>推荐的资源</h1>
   <p>      
     <ul>  <li><a href='http://blog.aliyun.com'>阿里云blog</a></li>
+            <li><a href='http://www.slideshare.net'>SlidesShare</a></li>
            <li><a href='http://highscalability.com/'>highscalability</a></li>
-	  <li><a href='http://www.searchtb.com/'>淘宝搜索技术团队</a></li>
 	  <li><a href='http://ifeve.com/'>并发编程网</a></li>
+	   <li><a href='http://www.searchtb.com/'>淘宝搜索技术团队</a></li>
+	    <li><a href='http://tech.meituan.com/'>美团技术团队</a></li>
           <li><a href='http://club.alibabatech.org/index.htm'>阿里技术沙龙</a></li>
 	  <li><a href='http://www.infoq.com/cn/zones/baidu-salon/'>百度技术沙龙</a></li>
 	  <li><a href='http://fengshenwu.com/blog/'>阿里数据平台</a></li>
