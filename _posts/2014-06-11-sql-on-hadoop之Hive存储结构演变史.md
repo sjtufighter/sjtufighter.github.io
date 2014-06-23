@@ -16,14 +16,16 @@ hive是facebook于2009年开源的一个建立在hadoop之上的大数据分析�
 **1**.我所熟悉的存储结构的变化，从textfile到sequencefile到rcfile再到orcfile&&parquet以及我们实验室自己开发的存储结构fosf。
     
 **2**.sql解析器的优化，比如说map side join 以及star join优化等；
-    
+
 **3**.底层计算引擎的变化，tez计算框架的出现，尚且不稳定 https://cwiki.apache.org/confluence/display/Hive/Hive+on+Tez；
     
 **4**.解析方式的变化，从一行一行解析到并行多行的解析，也不稳定 https://cwiki.apache.org/confluence/display/Hive/Vectorized+Query+Execution
+
+**5** cost based optimized ,很关键，但是据我所知其中的很多优化是建立在TEZ引擎盖之上的，这和其是由主推TEZ引擎的公司主导开发有关吧
     
-**5**.acid这种事务机制的low level支持 https://cwiki.apache.org/confluence/display/Hive/Hive+Transactions
+**6**.acid这种事务机制的low level支持 https://cwiki.apache.org/confluence/display/Hive/Hive+Transactions
     
-**6**.前面所说的暂且认为是性能的纵向提高，那么hcatlog这种方便管理元数据的姑且认为是功能的横向扩展吧
+**7**.前面所说的暂且认为是性能的纵向提高，那么hcatlog这种方便管理元数据的姑且认为是功能的横向扩展吧
     
 **下面我重点说一下存储结构的演化**
     
