@@ -11,7 +11,7 @@ tags:
 
 问题来源：
 
-两张表之间的join是通过转化为mapreduce job执行的，其中map阶段提取出join key 并对其进行排序，然后把特定join key所涉及的所有行数据shuffle到同一个reduce，在reduce阶段，则是对两个join表的join key 进行join，整个join的结果则是所有reduce阶段的结果所组成的。
+在hive中，由于其底层依赖的mapreduce计算框架的特点，两张表之间的join是通过转化为一个mapreduce job执行的，其中map阶段提取出join key 并对其进行排序，然后把特定join key所涉及的所有行数据shuffle到同一个reduce，在reduce阶段，则是对两个join表的join key 进行join，整个join的结果则是所有reduce阶段的结果所组成的。
 
 
 例如：我们有一张表A，其join key为 id ,id有值1,2,3,4.与此同时table B也有类似的属性列，其包含value 1 2 3.现在我们想对这两个表做如下join：
