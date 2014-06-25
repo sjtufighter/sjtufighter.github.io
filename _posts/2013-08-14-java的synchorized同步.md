@@ -7,7 +7,7 @@ categories:
 tags:
 - Java
 ---
-据我所致在java中实现线程的方法有两种一是不可变对象，二是用synchronized（ 互斥锁）来进行同步。
+据我所知在java中实现线程的方法有两种一是不可变对象，二是用synchronized（ 互斥锁）来进行同步。
  
   但是由于synchronized包含多种用法，下面将详细介绍synchronized在程序中的使用方式。
 **Java 同步关键字（synchronized）*8
