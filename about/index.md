@@ -7,6 +7,7 @@ comments: false
  
   
 四川人，一个充满激情的程序员，享受程序员那种指点江山改变世界的快乐。对分布式系统，分布式计算包括离线计算，流计算，实时计算以及内存计算都很感兴趣，当然也正在从事。我相信未来是一个数据消费的大数据时代，而分布式系统和分布式计算正是处理海量数据的基石，这也是我的兴趣所在。
+![image](https://github.com/sjtufighter/sjtufighter.github.io/raw/master/images/ceshi.jpg)
 
 <div id="post">
 <h1>夯实基础，追求卓越</h1>
