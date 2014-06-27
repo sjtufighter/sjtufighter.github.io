@@ -10,7 +10,7 @@ comments: false
 
 ![Joe Satriani](/images/test/test.jpg)
 
-![Joe Satriani](/images/test.jpg)
+![Joe Satriani](/images/ceshi.jpg)
 <div id="post">
 <h1>夯实基础，追求卓越</h1>
   <h1>related links</h1>
