@@ -11,6 +11,6 @@ tags:
 
 ![image](https://github.com/sjtufighter/sjtufighter.github.io/raw/master/images/ceshi.jpg)
 
-![image](https://github.com/sjtufighter/sjtufighter.github.io/raw/master/images/hiveWiki1/1.jpg)
+![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/1.JPG)
 
 ![image](https://github.com/sjtufighter/sjtufighter.github.io/blob/master/images/hiveWiki1/1.JPG)
