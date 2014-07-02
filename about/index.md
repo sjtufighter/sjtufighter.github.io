@@ -30,6 +30,7 @@ comments: false
             <li><a href='http://www.slideshare.net'>SlidesShare</a></li>
            <li><a href='http://highscalability.com/'>highscalability</a></li>
 	  <li><a href='http://ifeve.com/'>并发编程网</a></li>
+	  <li><a href='http://www.36kr.com/'>互联网创业</a></li>
 	  <li><a href='http://club.alibabatech.org/index.htm'>阿里技术沙龙</a></li>
 	  <li><a href='http://www.infoq.com/cn/zones/baidu-salon/'>百度技术沙龙</a></li>
 	   <li><a href='http://www.searchtb.com/'>淘宝搜索技术团队</a></li>
