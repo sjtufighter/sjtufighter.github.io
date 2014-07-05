@@ -63,3 +63,11 @@ C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/
 
 **其实可以看出hive存储结构的演化还是很清楚的，期待以后更加高效的设计结构**
  
+![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片43.JPG)
+
+![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片44.JPG)
+![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片45.JPG)
+![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片46.JPG)
+![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片47.JPG)
+![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片48.JPG)
+![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片49.JPG)
