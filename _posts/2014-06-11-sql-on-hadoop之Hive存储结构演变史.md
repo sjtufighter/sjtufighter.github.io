@@ -63,6 +63,8 @@ C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/
 
 **其实可以看出hive存储结构的演化还是很清楚的，期待以后更加高效的设计结构**
  
+ 下面这几张slides是我实习时向我所在的基础软件团队做汇报的时候用的，对存储结构的理解应该能起到一定的帮助，谢谢。
+ 
 ![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片43.JPG)
 
 ![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片44.JPG)
