@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "sql on hadoop之hive存储结构的发展史以及性能优化的方向"
-date:   2014-06-11
+title:  "sql on hadoop之hive存储结构的发展史以及性能优化"
+date:   2014-06-18
 categories: 
 - Notes 
 tags:
@@ -9,7 +9,14 @@ tags:
 ---
 hive是facebook于2009年开源的一个建立在hadoop之上的大数据分析仓库，并提供类似sql的接口hql.用户输入的sql经过hive的语法语义分析之后依次生成抽象语法书---逻辑查询计划--物理查询计划--查询优化--最后转变为多个相互依赖的mapreduce job（stages)提交给jobtracker进行处理。从这里可以看出**hive是建立在mr框架之上的，所以hive的定位就在于对海量的离线数据进行分析，而且是适合OLAP而非OLTP，不同于时下正火的google dremel的开源实现impala&&drill 以及建立在内存计算框架spark之上的shark**（这两个东西我会在下一篇文章中说一下）。拿hive和它们做对比是不合理的。
 
+![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片43.JPG)
 
+![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片44.JPG)
+![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片45.JPG)
+![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片46.JPG)
+![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片47.JPG)
+![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片48.JPG)
+![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片49.JPG)
 自从hive开源至今已经发布到了0.13版本，出现了很大的变化，横向扩展和纵向扩展。主要体现在多个方面：
 
 
