@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hive Wiki:deep learning on Hive Architecture ,Sql analysis and Storage"
-date:   2014-06-24
+date:   2014-07-09
 categories: 
 - Notes 
 tags:
