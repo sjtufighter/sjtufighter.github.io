@@ -9,7 +9,6 @@ tags:
 ---
 
 本文将对Hive的架构，Hive如何把一个输入的sql语句转化为mapreduce job，和关键词join group by  distinct等做一个较为详细的介绍，下面是以前做的slides，所以就贴在这里了，看起来可能会不太好理解，请见谅。
-
 ![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片1.JPG)
 
 ![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片2.JPG)
