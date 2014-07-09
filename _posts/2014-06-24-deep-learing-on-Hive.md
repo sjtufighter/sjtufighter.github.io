@@ -72,20 +72,34 @@ tags:
 ![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片50.JPG)
 
 http://www.slideshare.net/
+
 http://tech.meituan.com
+
 http://blog.aliyun.com/
+
 https://github.com/Parquet/parquet-format
+
 
 **Next Step**
 Hive  Optimization
+
 Hive new feature
+
 	-Hive Vectorized Query Execution
+	
 	-Hive on Tez
+	
 	-Hive on Spark
+	
 
 Sql on  Hadoop
+
 	-Spark SQL
+	
 	-Impala/Drill(Dremel)
+	
 	-Presto
+	
 	-Hawq
+	
 
