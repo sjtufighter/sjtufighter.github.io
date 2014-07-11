@@ -1,4 +1,12 @@
-
+---
+layout: post
+title:  "data warehouse:hive bucket static partition dynamic partition 桶 静态分区 动态分区"
+date:   2014-07-11
+categories: 
+- Notes 
+tags:
+- 分布式系统与计算
+---
 
 hive引入partition和bucket的概念。一般来说，这两个概念都是把数据划分成块，分区是粗粒度的划分桶是细粒度的划分（如果是动态分区的话需要考虑key值的离散情况以及设定最大buckets数目），这样做为了可以让查询发生在小范围的数据上以提高效率。
 分区又分为静态分区和动态分区：
