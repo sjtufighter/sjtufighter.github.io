@@ -56,7 +56,7 @@ insert overwrite  table mixbucket partition(l_returnflag,l_linestatus=50) select
 
 insert overwrite  table mixbucket partition(l_returnflag=50,l_linestatus) select l_orderkey , l_returnflag  from  orclineitem  ;
 
-**Bucket**
+**Bucket 桶划分**
 
 Create table bucketwangmeng(id int,name string) clustered by (id) into 4 buckets;
 
