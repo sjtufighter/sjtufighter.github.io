@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "数据仓库hive中Skewed Join Optimization数据倾斜优化的原理"
+title:  "data warehouse(数据仓库)hive中Skewed Join Optimization数据倾斜优化的原理"
 date:   2014-06-25
 categories: 
 - Notes 
