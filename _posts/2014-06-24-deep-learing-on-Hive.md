@@ -9,7 +9,7 @@ tags:
 ---
 
 
-本文将对Hive的架构，Hive如何把一个输入的sql语句转化为mapreduce job，和关键词join group by  distinct等实现原理以及hive 底层存储结构的特点（hive最新的存储结构思想已经被用到多种计算模型比如spark,hbase等）做一个较为详细的介绍，下面是以前给自己所在的分布式计算team汇报做的slides，所以就贴在这里了，看起来可能会不太好理解，请见谅。
+本文将对Hive的架构，常见用法，Hive如何把一个输入的sql语句转化为mapreduce job，和关键词join group by  distinct等实现原理以及hive 底层存储结构的实现原理（hive最新的存储结构思想已经被用到多种计算模型比如spark,hbase等）做一个较为详细的介绍，下面是以前给自己所在的分布式计算team汇报做的slides，所以就贴在这里了，看起来可能会不太好理解，请见谅。
 
 ![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/hiveWiki1/幻灯片1.JPG)
 
