@@ -7,7 +7,7 @@ comments: false
  
 
 
-四川人，最大特点是充满着自我提高的激情，喜欢琢磨些和分布式系统，分布式计算相关的事情，成为一名数据处理工程师，享受互联网世界。夯实基础，追求卓越。
+四川人，最大特点是充满着自我提高的激情，喜欢琢磨些和分布式系统，分布式计算相关的事情，成为一名数据处理工程师，享受互联网世界。好好经营自己的博客，希望经过数年的沉淀可以写一本自己的书。
 
 ![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/me/psb.JPG)
 <div id="post">
