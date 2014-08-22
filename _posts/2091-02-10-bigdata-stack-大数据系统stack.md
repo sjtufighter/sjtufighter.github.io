@@ -7,7 +7,7 @@ categories:
 tags:
 - lifeBook
 ---
-特此申明，一下资源几乎全部来自，由于对自身以后的规划有很大帮助，所以就复制过来了.
+特此申明，一下资源几乎全部来自https://github.com/onurakpolat/awesome-bigdata，由于对自身以后的规划有很大帮助，所以就复制过来了,Thanks very much.
 
 - [Awesome Big Data](#awesome-bigdata)
     - [Frameworks](#frameworks)
