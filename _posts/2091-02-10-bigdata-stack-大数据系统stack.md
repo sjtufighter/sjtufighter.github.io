@@ -1,8 +1,13 @@
-# Awesome Big Data
-
-A curated list of awesome big data frameworks, resources and other awesomeness. Inspired by [awesome-php](https://github.com/ziadoz/awesome-php), [awesome-python](https://github.com/vinta/awesome-python), [awesome-ruby](https://github.com/Sdogruyol/awesome-ruby), [hadoopecosystemtable](http://hadoopecosystemtable.github.io/) & [big-data](http://blog.andreamostosi.name/big-data/).
-
-Your contributions are always welcome!
+---
+layout: post
+title:  "bigdata system stack 大数据系统全视角"
+date:   2091-02-10
+categories: 
+- Notes 
+tags:
+- lifeBook
+---
+特此申明，一下资源几乎全部来自，由于对自身以后的规划有很大帮助，所以就复制过来了.
 
 - [Awesome Big Data](#awesome-bigdata)
     - [Frameworks](#frameworks)
@@ -527,3 +532,5 @@ for Data Analytics at Twitter.
 
 # Other Awesome Lists
 Other amazingly awesome lists can be found in the [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) list.
+
+A curated list of awesome big data frameworks, resources and other awesomeness. Inspired by [awesome-php](https://github.com/ziadoz/awesome-php), [awesome-python](https://github.com/vinta/awesome-python), [awesome-ruby](https://github.com/Sdogruyol/awesome-ruby), [hadoopecosystemtable](http://hadoopecosystemtable.github.io/) & [big-data](http://blog.andreamostosi.name/big-data/).
