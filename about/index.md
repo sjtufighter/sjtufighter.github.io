@@ -6,8 +6,7 @@ comments: false
 <div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://wangmeng.us/', 'user' : 1145870, 'server' : '3', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2014-06-11', 'lang' : 'zh', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www3.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www3.clustrmaps.com/user/a1d117c0e"><img src="http://www3.clustrmaps.com/stats/maps-no_clusters/wangmeng.us--thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
  
 
-
-四川人，最大特点是充满着自我提高的激情，喜欢琢磨些和分布式系统，分布式计算相关的事情，成为一名数据处理工程师，享受互联网世界。好好经营自己的博客，希望经过数年的沉淀可以写一本自己的书。
+四川人，兴趣广泛，关注分布式系统与计算，分布式数据处理，sql on  hadoop ,spark，机器学习，关注大数据，关注无人机多维图像摄影技术，关注智能眼镜，可穿戴设备，关注互联网动态
 
 ![image](https://raw.githubusercontent.com/sjtufighter/sjtufighter.github.io/master/images/me/psb.JPG)
 <div id="post">
