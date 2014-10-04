@@ -4,7 +4,7 @@ url: http://wangmeng.us
 author: WangMeng
 pygments: true
 safe: true
-paginate: 16
+paginate: 30
 encoding: 'utf-8'
 self.content: File.read(File.join(base, name),:encoding=>"utf-8")
 
